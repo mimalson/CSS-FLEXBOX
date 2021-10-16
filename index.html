@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Flexbox</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>learning git and github</h1>
+    <main>
+        <header>
+            <div class="row">
+                <h1 class="banner-heading custom-font"> about</h1>
+                <p class="banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis excepturi eligendi ipsa suscipit dignissimos, rerum necessitatibus facere quo harum nisi reprehenderit aspernatur aliquid vero nihil fugiat minima natus? Cupiditate neque sapiente exercitationem asperiores architecto vel illum esse eos eligendi!
+                </p>
+            </div>
+        </header>
+
+        <section class="content">
+            <div class="row-column ">
+                <h6 class="content-h6 custom-font">
+                    <span>L</span> orem ipsum, dolor sit amet consectetur adipisicing elit. Eos quaerat rerum odio. Expedita, earum quo consequatur ex necessitatibus voluptate minima omnis fugiat perspiciatis ratione, incidunt quod? Illum aliquam debitis consequuntur.
+                </h6>
+                <p class="content-p">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ipsam magni praesentium maxime explicabo officia voluptatum libero hic ullam aut. In praesentium consequatur a consequuntur officiis, repellat expedita. Atque assumenda pariatur dolor iste quod harum veritatis minima dolore. Perspiciatis nostrum quisquam qui minus praesentium sint ea excepturi enim laboriosam in!
+                </p>
+            </div>
+        </section>
+
+        <secion class="gallery">
+            <div class="row-100">
+                <div class="img-container gallery-img-1"></div>
+                <div class="img-container gallery-img-2"></div>
+                <div class="img-container gallery-img-3"></div>
+            </div>
+            <div class="row-100">
+                <div class="img-container gallery-img-4"></div>
+                <div class="img-container gallery-img-5"></div>
+                <div class="img-container gallery-img-6"></div>
+            </div>
+        </secion>
+        <section class="coming-soon">
+            <div class="row-column-100">
+                <h3 class="coming-soon-h3 custom-font">coming soon</h3>
+                <p class="coming-soon-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis id tempora
+                     aliquid ab deserunt ex illo repellat.
+                </p>
+                <form  class="coming-soon-form">
+                    <div class="row-100">
+                        <div class="input-container">
+                            <input type="text" placeholder="name" class="text-input">
+                        </div>
+                        <div class="input-container">
+                            <input type="email" placeholder="enter a valid email address" class="text-input">
+                        </div>
+                        <div class="input-container">
+                         <button type="submit" class="form-btn">get updates</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="article">
+            <div class="row-100">
+                <div class="article-img-container">
+                    <img src="./images/ayo-ogunseinde-UqT55tGBqzI-unsplash.jpg" alt="" class="article-img">
+                </div>
+                <div class="article-text-container">
+                    <p class="article-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, facere animi. Exercitationem suscipit quaerat at quos dolor amet possimus quibusdam et velit non reiciendis quasi ad inventore veritatis iusto ipsam magni aut ea ipsa delectus blanditiis, officiis culpa? Dolorum atque officia hic in sed blanditiis consequuntur? Praesentium amet veniam cum dolores, hic earum aliquid? Doloremque dignissimos nemo, eligendi cum incidunt optio impedit itaque fugiat fuga quo quas eaque, voluptate doloribus earum natus dolorum modi beatae recusandae. Mollitia cum in eveniet odit, nam beatae magnam incidunt accusamus dolor vero eos optio. Totam quaerat fugit tempore dolor optio assumenda suscipit doloribus libero?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide">
+            <div class="row-100">
+                <h3 class=" slide-heading custom-font">spring collection</h3>
+            </div>
+            <div class="row-100">
+                <div class="slide-img-container slide-img-1"></div>
+                <div class="slide-img-container slide-img-2"></div>
+                <div class="slide-img-container slide-img-3"></div>
+                <div class="slide-img-container slide-img-4"></div>
+            </div>
+            
+
+            <div class="row-100 slide-icon-container">
+                <i data-feather="arrow-right"></i>
+            </div>
+        </section>
+        <section class="product">
+            <div class="row-100">
+                <div class="product-container">
+                    <img src="./images/sneaker2 (2).jpeg" alt="">
+                </div>
+                <div class="product-container">
+                    <img src="./images/sneaker2 (3).jpeg" alt="">
+                </div>
+                <div class="product-description">
+                     <h4>sample product</h4>
+                     <div class="price-tag">$9.95</div>
+                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum exercitationem aperiam accusantium. Possimus ipsum nobis necessitatibus, amet dolorem quam vel incidunt illum exercitationem sunt nisi veniam rem accusamus officia veritatis!</p>
+                     <button>add to cart</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="subscribe">
+            <div class="row-100">
+                <div class="subscribe-img-container"></div>
+                <div class="subscribe-text-container">
+                    <h3 class="subscribe-heading custom-font">subscribe</h3>
+                    <form class="subscribe-form">
+                        <div class="input-container">
+                            <input type="email" placeholder="enter a valid email address">
+                            <input type="text" placeholder="enter your name">
+                        </div>
+                        <div class="input-container">
+                            <button type="submit">submit</button>
+                        </div>
+                    </form>
+                    <p class="subscribe-text">Lorem ipolorsum d sit amet consectetur, adipisicing elit. Maxime ab recusandae hic nostrum. At, ipsa corporis. Amet voluptas nam quasi, soluta at quam distinctio quos explicabo excepturi reiciendis. Beatae, libero.</p>
+                    
+                        <ul class="social">
+                           <li>
+                               <a href="#">
+                                   <img src="./images/facebook.png" alt="facebook">
+                               </a>
+                           </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/twitter.png" alt="Twitter">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/instagram.png" alt="Instagram">
+                                </a>
+                            </li>
+                        </ul>
+                   
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace()
+      </script>
 </body>
 </html>

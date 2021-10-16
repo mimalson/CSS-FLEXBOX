@@ -1,0 +1,436 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-family: serif;
+  }
+  
+  .row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .row-100{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .row-column{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*.row-column-100{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }*/
+  
+  .custom-font{
+    font-family: 'playfair display', serif;;
+  }
+  header{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    color: #fff;
+    padding: 60px;
+    background-image: url('./images/pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  .banner-heading{
+    padding: 0 1.6rem;
+    font-size: 5rem;
+    font-style: italic;
+  }
+  
+  .banner-text{
+    background-color: #fff;
+    color: black;
+    font-size: 0.9rem;
+    padding: 30px;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-color: #e4afb2;
+    color: #fff;
+    font-weight: normal;
+    /*margin-bottom: 15px;*/
+  }
+  
+  .content-h6{
+    /*padding: 30px 0;*/
+    font-size: 1.4rem;
+    font-style: italic;
+    padding-bottom: 15px;
+  }
+  
+  .content-h6 span{
+    font-size: 5rem;
+    line-height: normal;
+  }
+  
+  .content-p{
+    font-size: 1rem;
+    width: 50%;
+  }
+  
+  .gallery .img-container{
+   display: flex;
+   flex-grow: 1;
+   overflow: hidden;
+   height: 500px;
+  }
+  .gallery .img-container{
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .gallery .gallery-img-1{
+    background-image: url(./images/alexandru-zdrobau-juESZxMhtXk-unsplash.jpg);
+  }
+  
+  .gallery .gallery-img-2{
+    background-image: url(./images/alexi-romano-CCx6Fz_CmOI-unsplash.jpg);
+  }
+  
+  .gallery .gallery-img-3{
+    background-image: url(./images/judeus-samson-0UECcInuCR4-unsplash.jpg);
+  }
+  
+  .gallery .gallery-img-4{
+    background-image: url(./images/luobulinka-FO4mQZi1c0M-unsplash.jpg);
+  }
+  
+  .gallery .gallery-img-5{
+    background-image: url(./images/molly-mears-4_90zmmdo_4-unsplash.jpg);
+  }
+  
+  .gallery .gallery-img-6{
+    background-image: url(./images/ospan-ali-nyrSsBzhZ4Y-unsplash.jpg);
+  }
+  
+  .coming-soon{
+    background-color: #e4afb2;
+    padding: 50px 10px;
+  }
+  
+  
+  .coming-soon .row-column-100{
+    justify-content: center;
+  }
+  
+  .coming-soon .coming-soon-h3,
+  .coming-soon .coming-soon-p,
+  .coming-soon .coming-soon-form{
+    text-align: center;
+    color: #fff;
+  }
+  
+  .coming-soon .coming-soon-h3{
+    font-size: 4rem;
+    font-style: italic;
+  }
+  
+  .coming-soon .coming-soon-p{
+    font-size: 1.3rem;
+  }
+  
+  .coming-soon .coming-soon-form{
+    margin-top: 30px;
+  }
+  
+  .coming-soon-form .row-100{
+    justify-content: center;
+  }
+  .coming-soon-form .input-container{
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-container .text-input,
+  .input-container .form-btn{
+    padding: 12px 10px;
+    border: none;
+    border-radius: 16px;
+  }
+  
+  .input-container .form-btn{
+    background-color: black;
+    color: #fff;
+  }
+  
+  .article{
+    display: flex;
+    background-color: #fff;
+    padding: 3rem;
+  }
+  
+  .article-img-container, .article-text-container{
+    height: 35rem;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .article-img-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 30%;
+  }
+  
+  .article-img-container .article-img{
+    width: 100%;
+  }
+  
+  .article-text-container{
+    flex-grow: 3;
+    flex-shrink: 0;
+    flex-basis: 75%;
+    padding: 1.3rem;
+  }
+  
+  .article-text-container .article-text{
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2rem;
+    max-width: 800px;
+  }
+  .slide{
+    padding: 3.5rem;
+    background-color: #e4afb2;
+    color: #fff;
+  
+  }
+  
+  .slide .row-100{
+    justify-content: center;
+  }
+  
+  .slide-heading{
+    font-size: 3.5rem;
+    font-style: italic;
+    margin-bottom: 1.3rem;
+  }
+  
+  .slide-img-container{
+    flex-grow: 1;
+    height: 350px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0.3rem;
+  }
+  
+  .slide-img-1{
+    background-image: url(./images/bag2.jpg);
+  }
+  
+  .slide-img-2{
+    background-image: url(./images/shade3.jpg);
+  }
+  
+  .slide-img-3{
+    background-image:url(./images/shoe1.jpg) ;
+  }
+  
+  .slide-img-4{
+    background-image: url(./images/clothe1.jpg);
+  }
+  .slide-img{
+    width: 100%;
+  }
+  
+  .slide-icon-container{
+    margin-top: 1.4rem;
+    font-size: 2rem;
+  }
+  
+  .product{
+    padding: 4.5rem;
+  }
+  
+  .product-container{
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-container img{
+    width: 100%;
+  }
+  
+  .product-container, .product-description{
+    padding: .5rem;
+  }
+  
+  .product-description{
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+  }
+  
+  .product-description h4{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 1.2rem;
+  }
+  
+  .product-description .price-tag{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  .product-description p{
+    font-size: .9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product-description button{
+    width: 150px;
+    background-color: black;
+    padding: .7rem;
+    color: #fff;
+    border-radius: 1.5rem;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .product-description button:hover{
+    background-color: #e4afb2;
+  }
+  
+  
+  
+  .subscribe-img-container, .subscribe-text-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    height: 100vh;
+  }
+  
+  .subscribe-text-container{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subscribe-img-container{
+    background-image: url(./images/flower1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .subscribe-heading{
+    position: relative;
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 800;
+  }
+  
+  .subscribe-heading::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 75%;
+    transform: translateX(-50%);
+    height: 8px;
+    background-color: #e4afb2;
+  }
+  
+  .input-container input{
+    padding: 0.8rem;
+    margin: 1rem;
+  }
+  
+  .subscribe-form{
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .input-container  button{
+    width: 10rem;
+    padding: .7rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    margin: 1.5rem;
+  }
+  
+  .input-container  button:hover{
+    background-color: #e4afb2;
+  }
+  
+  .subscribe-text{
+    font-size: .8rem;
+    font-weight: lighter;
+    /*max-width: 25rem;*/
+    text-align: center;
+    
+  }
+  
+  .subscribe-text-container .subscribe-text{
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .social li{
+    list-style: none;
+  }
+  
+  .social li a img{
+    cursor: pointer;
+    margin: 0 15px 5px 0;
+  }
+  
+  /*.social li a{
+    filter: invert(1);
+    margin-right: 20px;
+    transition: 500ms;
+    transform: scale(0.5);
+  }  
